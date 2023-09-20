@@ -1,21 +1,20 @@
 ﻿using System;
 
-Console.Write("1 ile 4 arası sayi girniz :");
+Console.Write("Bir ay ismi giriniz :");
 
-byte a = Convert.ToByte((Console.ReadLine()));
+string a = Console.ReadLine().ToLower();
 
 switch (a)
 {
-    case 1:
-        Console.WriteLine("1 girdiniz.");
+    case "aralık":
+    case "ocak":
+    case "subat":
+        Console.WriteLine("KIŞ");
         break;
-    case 2:
-        Console.WriteLine("2 girdiniz.");
+    case "mart":
+    case "nisan":
+    case "mayis":
+        Console.WriteLine("İLKBAHAR");
         break;
-    case 3:
-        Console.WriteLine("3 girdiniz.");
-        break;
-    case 4:
-        Console.WriteLine("4 girdiniz.");
-        break;
+
 }
