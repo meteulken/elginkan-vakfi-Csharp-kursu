@@ -57,7 +57,7 @@ class Program
         double s = uzaklikhesapla(x1, y1, x2, y2);
         if(s < 0)
             Math.Abs(s);
-        Console.WriteLine("{0},{1} ve {2},{4} noktarlarının uzaklığı= {4}", x1, x2, y1, y2, s);
+        Console.WriteLine("{0},{1} ve {2},{3} noktarlarının uzaklığı= {4}", x1, x2, y1, y2, s);
 
     }
     public static double uzaklikhesapla(int x1,int y1,int x2,int y2)
